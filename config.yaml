@@ -1,0 +1,105 @@
+# github.com/taoti888/ziyan Global Configuration
+
+# jwt configuration
+jwt:
+  signingKey: ziyan2023
+  expiresTime: 7d
+  bufferTime: 1d
+  issuer: ziyan2023
+# zap logger configuration
+zap:
+  level: info
+  format: console
+  prefix: ""
+  director: logs
+  encodeLevel: CapitalLevelEncoder
+  stacktraceKey: stacktrace
+  maxAge: 10
+  showLine: true
+  logInConsole: true
+
+# redis configuration
+redis:
+  addrs: ["10.102.81.2:6381", "10.102.81.2:6382", "10.102.81.2:6383"]
+  username: ""
+  password: ""
+  poolsize: 15
+  maxRedirects: 8
+  minIdleConns: 10
+  idleTimeout: 30000
+  dialTimeout: 5000
+  readTimeout: 3000
+  writeTimeout: 3000
+
+# email configuration
+email:
+  to: xxx@qq.com
+  port: 465
+  from: xxx@163.com
+  host: smtp.163.com
+  isSSL: true
+  secret: xxx
+  nickname: test
+
+# system configuration
+system:
+  env: public # Change to "develop" to skip authentication for development mode
+  port: 8080
+  dbType: mysql
+  ossType: local
+  useMultipoint: false
+  useRedis: false
+  ipLimitCount: 15000
+  ipLimitTime: 3600
+  routerPrefix: ""
+
+# captcha configuration
+captcha:
+  key-long: 6
+  imgWidth: 240
+  imgHeight: 80
+  openCaptcha: 0 # 0代表一直开启，大于0代表限制次数
+  openCaptchaTimeOut: 3600 # open-captcha大于0时才生效
+
+# mysql connect configuration
+mysql:
+  host: "localhost"
+  port: "3306"
+  config: "charset=utf8mb4&parseTime=True&loc=Local"
+  dbname: "gva"
+  username: "root"
+  password: "devil2020"
+  maxIdleConns: 10
+  maxOpenConns: 100
+  logMode: ""
+  logZap: false
+
+# local configuration
+local:
+  path: uploads/file
+  store-path: uploads/file
+
+# aliyun oss configuration
+aliyunOSS:
+  endpoint: yourEndpoint
+  accessKeyID: yourAccessKeyId
+  accessKeySecret: yourAccessKeySecret
+  bucketName: yourBucketName
+  bucketUrl: yourBucketUrl
+  basePath: yourBasePath
+
+# 跨域配置
+# 需要配合 server/initialize/router.go -> `Router.Use(middleware.CorsByRules())` 使用
+cors:
+  mode: strict-whitelist # 放行模式: allow-all, 放行全部; whitelist, 白名单模式, 来自白名单内域名的请求添加 cors 头; strict-whitelist 严格白名单模式, 白名单外的请求一律拒绝
+  whiteList:
+    - allowOrigin: example1.com
+      allowHeaders: Content-Type,AccessToken,X-CSRF-Token, Authorization, Token,X-Token,X-User-Id
+      allowMethods: POST, GET
+      exposeHeaders: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
+      allowCredentials: true # 布尔值
+    - allowOrigin: example2.com
+      allowHeaders: content-type
+      allowMethods: GET, POST
+      exposeHeaders: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
+      allowCredentials: true # 布尔值

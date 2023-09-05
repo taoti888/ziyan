@@ -1,0 +1,48 @@
+[github.com/taoti888/ziyan]2023/06/06 - 11:29:17.646	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+[github.com/taoti888/ziyan]2023/06/06 - 11:29:17.656	[34minfo[0m	D:/code/ziyan/core/server.go:34	server run success on 	{"address": ":8080"}
+[github.com/taoti888/ziyan]2023/06/06 - 11:31:30.316	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+[github.com/taoti888/ziyan]2023/06/06 - 11:31:30.325	[34minfo[0m	D:/code/ziyan/core/server.go:34	server run success on 	{"address": ":8080"}
+[github.com/taoti888/ziyan]2023/06/06 - 11:32:06.113	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+[github.com/taoti888/ziyan]2023/06/06 - 11:32:06.117	[34minfo[0m	D:/code/ziyan/core/server.go:34	server run success on 	{"address": ":8080"}
+2023/06/06 - 11:32:29.701	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+2023/06/06 - 11:32:29.720	[34minfo[0m	D:/code/ziyan/core/server.go:34	server run success on 	{"address": ":8080"}
+2023/06/06 - 11:33:49.513	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+2023/06/06 - 11:33:49.521	[34minfo[0m	D:/code/ziyan/core/server.go:34	server run success on 	{"port": ":8080"}
+2023/06/06 - 11:34:51.002	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+2023/06/06 - 11:34:51.020	[34minfo[0m	D:/code/ziyan/core/server.go:34	server run success on 	{"": ":8080"}
+2023/06/06 - 11:35:21.083	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+2023/06/06 - 11:35:21.099	[34minfo[0m	D:/code/ziyan/core/server.go:35	server run success on 	{"port": ["", "8080"]}
+2023/06/06 - 11:35:39.195	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+2023/06/06 - 11:35:39.208	[34minfo[0m	D:/code/ziyan/core/server.go:35	server run success on 	{"port": "8080"}
+2023/06/06 - 11:35:58.829	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+2023/06/06 - 11:35:58.840	[34minfo[0m	D:/code/ziyan/core/server.go:35	Server run success on 	{"port": "8080"}
+2023/06/06 - 11:37:34.837	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+2023/06/06 - 11:37:34.849	[34minfo[0m	D:/code/ziyan/core/server.go:35	Server run success on 	{"port": "8080"}
+2023/06/06 - 11:43:02.757	[34minfo[0m	D:/code/ziyan/initialize/router.go:32	router register success
+2023/06/06 - 11:43:02.766	[34minfo[0m	D:/code/ziyan/core/server.go:35	Server run success on 	{"port": "8080"}
+2023/06/06 - 11:46:34.740	INFO	D:/code/ziyan/initialize/router.go:32	router register success
+2023/06/06 - 11:46:34.756	INFO	D:/code/ziyan/core/server.go:35	Server run success on 	{"port": "8080"}
+2023/06/06 - 17:40:57.887	[34minfo[0m	D:/code/ziyan/initialize/router.go:55	router register success
+2023/06/06 - 17:40:57.892	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 17:42:10.659	[34minfo[0m	D:/code/ziyan/initialize/router.go:53	router register success
+2023/06/06 - 17:42:10.669	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 17:45:48.303	[34minfo[0m	D:/code/ziyan/initialize/router.go:52	router register success
+2023/06/06 - 17:45:48.311	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 17:46:10.511	[34minfo[0m	D:/code/ziyan/initialize/router.go:52	router register success
+2023/06/06 - 17:46:10.519	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 17:46:20.277	[34minfo[0m	D:/code/ziyan/initialize/router.go:52	router register success
+2023/06/06 - 17:46:20.286	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 17:46:50.611	[34minfo[0m	D:/code/ziyan/initialize/router.go:52	router register success
+2023/06/06 - 17:46:50.620	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 17:47:49.434	[34minfo[0m	D:/code/ziyan/initialize/router.go:52	router register success
+2023/06/06 - 17:47:49.444	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 18:05:08.339	[34minfo[0m	D:/code/ziyan/initialize/router.go:34	register swagger handler
+2023/06/06 - 18:05:08.346	[34minfo[0m	D:/code/ziyan/initialize/router.go:63	router register success
+2023/06/06 - 18:05:08.349	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 18:07:32.168	[34minfo[0m	D:/code/ziyan/initialize/router.go:34	register swagger handler
+2023/06/06 - 18:07:32.174	[34minfo[0m	D:/code/ziyan/initialize/router.go:63	router register success
+2023/06/06 - 18:07:32.185	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 21:52:42.864	[34minfo[0m	D:/code/ziyan/initialize/router.go:57	router register success
+2023/06/06 - 21:52:42.880	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
+2023/06/06 - 22:02:52.313	[34minfo[0m	D:/code/ziyan/initialize/router.go:57	router register success
+2023/06/06 - 22:02:52.323	[34minfo[0m	D:/code/ziyan/core/server.go:36	Server run success on 	{"port": "8080"}
